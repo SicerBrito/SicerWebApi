@@ -10,25 +10,20 @@ public class DepartamentoConfiguration : IEntityTypeConfiguration<Departamento>
     {
         builder.ToTable("Departamento");
 
-        builder.Property(p => p.IdDepartamento)
-            .HasColumnName("IdDepartamento")
-            .HasColumnType("int")
-            .IsRequired();
-
-        builder.Property(p => p.NombreDepartamento)
-            .HasColumnName("NombreDepartamento")
+        builder.Property(p => p.PKNombreDepartamento)
+            .HasColumnName("Departamento_FK")
             .HasColumnType("varchar")
-            .HasMaxLength(50)
+            .HasMaxLength(40)
             .IsRequired();
 
-        builder.Property(p => p.PaisId)
-            .HasColumnName("Paises_Id")
+        builder.Property(p => p.PaisFK)
+            .HasColumnName("Pais_FK")
             .HasColumnType("int")
             .IsRequired();
 
         builder.HasOne(p => p.Paises)
             .WithMany(p => p.Departamentos)
-            .HasForeignKey(p => p.PaisId);
+            .HasForeignKey(p => p.PaisFK);
 
 
     }

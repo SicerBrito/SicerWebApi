@@ -4,8 +4,7 @@ namespace Dominio.Entities;
     public class Pais{
         
         [Key]
-        public int IdPais { get; set; }
-        public string ? NombrePais { get; set; }
+        public string ? PKNombrePais { get; set; }
         public ICollection<Departamento> ? Departamentos { get; set;}
     
     }

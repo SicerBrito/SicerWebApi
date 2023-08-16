@@ -6,6 +6,14 @@ namespace Persistencia.Data.Configuration;
     public class PaisConfiguration : IEntityTypeConfiguration<Pais>{
         public void Configure(EntityTypeBuilder<Pais> builder)
         {
-            throw new NotImplementedException();
+            builder.ToTable("Pais");
+
+            builder.Property(p => p.PKNombrePais)
+                .HasColumnName("Pais_FK")
+                .HasColumnType("varchar")
+                .HasMaxLength(85)
+                .IsRequired();
+
+
         }
     }

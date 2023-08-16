@@ -31,19 +31,6 @@
           "lib/netstandard2.1/AutoMapper.Extensions.Microsoft.DependencyInjection.dll": {}
         }
       },
-      "Dapper/2.0.143": {
-        "type": "package",
-        "compile": {
-          "lib/net5.0/Dapper.dll": {
-            "related": ".xml"
-          }
-        },
-        "runtime": {
-          "lib/net5.0/Dapper.dll": {
-            "related": ".xml"
-          }
-        }
-      },
       "FluentValidation/11.5.1": {
         "type": "package",
         "compile": {
@@ -1701,24 +1688,6 @@
         "automapper.extensions.microsoft.dependencyinjection.nuspec",
         "icon.png",
         "lib/netstandard2.1/AutoMapper.Extensions.Microsoft.DependencyInjection.dll"
-      ]
-    },
-    "Dapper/2.0.143": {
-      "sha512": "Vh0U+Fins3IpS7APUlrzga3+1mswWngB5fZ0xj4w+FQR5JhJzA5uHV5rSepkahvmshNZUA0YcHtae9vFQpiVTw==",
-      "type": "package",
-      "path": "dapper/2.0.143",
-      "files": [
-        ".nupkg.metadata",
-        ".signature.p7s",
-        "Dapper.png",
-        "dapper.2.0.143.nupkg.sha512",
-        "dapper.nuspec",
-        "lib/net461/Dapper.dll",
-        "lib/net461/Dapper.xml",
-        "lib/net5.0/Dapper.dll",
-        "lib/net5.0/Dapper.xml",
-        "lib/netstandard2.0/Dapper.dll",
-        "lib/netstandard2.0/Dapper.xml"
       ]
     },
     "FluentValidation/11.5.1": {
@@ -5266,7 +5235,6 @@
   },
   "projectFileDependencyGroups": {
     "net7.0": [
-      "Dapper >= 2.0.143",
       "Dominio >= 1.0.0",
       "Microsoft.EntityFrameworkCore >= 7.0.10",
       "Microsoft.EntityFrameworkCore.Tools >= 7.0.10",
@@ -5274,19 +5242,19 @@
     ]
   },
   "packageFolders": {
-    "/home/skylab-4/.nuget/packages/": {}
+    "/home/apolM01-053/.nuget/packages/": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/home/skylab-4/Documents/Sicer/NetCore/SicerWebApi/Persistencia/Persistencia.csproj",
+      "projectUniqueName": "/home/apolM01-053/Documents/Sicer/NetCore/SicerWebApi/Persistencia/Persistencia.csproj",
       "projectName": "Persistencia",
-      "projectPath": "/home/skylab-4/Documents/Sicer/NetCore/SicerWebApi/Persistencia/Persistencia.csproj",
-      "packagesPath": "/home/skylab-4/.nuget/packages/",
-      "outputPath": "/home/skylab-4/Documents/Sicer/NetCore/SicerWebApi/Persistencia/obj/",
+      "projectPath": "/home/apolM01-053/Documents/Sicer/NetCore/SicerWebApi/Persistencia/Persistencia.csproj",
+      "packagesPath": "/home/apolM01-053/.nuget/packages/",
+      "outputPath": "/home/apolM01-053/Documents/Sicer/NetCore/SicerWebApi/Persistencia/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "/home/skylab-4/.nuget/NuGet/NuGet.Config"
+        "/home/apolM01-053/.nuget/NuGet/NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net7.0"
@@ -5298,8 +5266,8 @@
         "net7.0": {
           "targetAlias": "net7.0",
           "projectReferences": {
-            "/home/skylab-4/Documents/Sicer/NetCore/SicerWebApi/Dominio/Dominio.csproj": {
-              "projectPath": "/home/skylab-4/Documents/Sicer/NetCore/SicerWebApi/Dominio/Dominio.csproj"
+            "/home/apolM01-053/Documents/Sicer/NetCore/SicerWebApi/Dominio/Dominio.csproj": {
+              "projectPath": "/home/apolM01-053/Documents/Sicer/NetCore/SicerWebApi/Dominio/Dominio.csproj"
             }
           }
         }
@@ -5314,10 +5282,6 @@
       "net7.0": {
         "targetAlias": "net7.0",
         "dependencies": {
-          "Dapper": {
-            "target": "Package",
-            "version": "[2.0.143, )"
-          },
           "Microsoft.EntityFrameworkCore": {
             "target": "Package",
             "version": "[7.0.10, )"

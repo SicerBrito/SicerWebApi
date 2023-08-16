@@ -37,14 +37,18 @@ Proyecto WebApi Campuslands con la estructura que tiene [Solvo](https://solvoglo
 Mi objetivo con este proyecto es centrarme en el aprendizaje y el desarrollo constante de mis habilidades. Además de eso, también tengo otras metas en mente para asegurarme de que mi contribución sea lo más efectiva posible 📄  
 
 ## Estructura del Proyecto
- - 📂 En Dominio
-        se crean las tablas que representan la BD.
- - 📂 En Persistencia
-        se crea la instancia de conexion a la BD.
- - 📂 En Aplicacion
-        se crea la inyeccion de dependecia para la comunicacion con el WebApi.
- - 📂 En WebApi
-        se crean clases encargadas de recibir peticiones de los clientes.
+Estas son las carpertas de configuracion las cuales vamos a utilizar para nuestros proyectos
+ - 📂 En Dominio  
+        Aqui se crean las tablas que representan la BD y van a estar ubicadas las carpetas de Entidades e Interfaces.
+
+ - 📂 En Persistencia  
+        Aqui se crea la instancia de conexion a la BD y van a estar ubicadas las carpetas de Data, Configuracion y Migraciones.
+
+ - 📂 En Aplicacion  
+        Aqui se crea la inyeccion de dependecia para la comunicacion con el WebApi y van a estar ubicadas las carpetas de Unidad de trabajo y Repositorios.
+        
+ - 📂 En WebApi  
+        Aqui se crean clases encargadas de recibir peticiones de los clientes y van a estar ubicadas las carpetas de Controladores y Extenciones.
 
 ---
 

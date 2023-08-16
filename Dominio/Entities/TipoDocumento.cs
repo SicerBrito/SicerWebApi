@@ -1,11 +1,10 @@
 using System.ComponentModel.DataAnnotations;
 
 namespace Dominio.Entities;
-    public class TipoPersona{
+    public class TipoDocumento{
         
         [Key]
-        public string ? PKTipoPersona { get; set; }
-        public string ? Descripcion { get; set; }
+        public string ? PKNombreTipo { get; set; }
         public ICollection<Persona> ? Personas { get; set; }
-        
+
     }
