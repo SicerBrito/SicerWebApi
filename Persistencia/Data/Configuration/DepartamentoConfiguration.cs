@@ -18,7 +18,8 @@ public class DepartamentoConfiguration : IEntityTypeConfiguration<Departamento>
 
         builder.Property(p => p.PaisFK)
             .HasColumnName("Pais_FK")
-            .HasColumnType("int")
+            .HasColumnType("varchar")
+            .HasMaxLength(85)
             .IsRequired();
 
         builder.HasOne(p => p.Paises)

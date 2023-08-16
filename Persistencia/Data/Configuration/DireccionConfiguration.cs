@@ -11,7 +11,8 @@ public class DireccionConfiguration : IEntityTypeConfiguration<Direccion>
 
         builder.Property(p => p.PKDireccion)
             .HasColumnName("PKDireccion")
-            .HasColumnType("int")
+            .HasColumnType("varchar")
+            .HasMaxLength(100)
             .IsRequired();
 
         builder.Property(p => p.TipoViaFK)
@@ -30,7 +31,8 @@ public class DireccionConfiguration : IEntityTypeConfiguration<Direccion>
             .IsRequired();
 
         builder.Property(p => p.Letra)
-            .HasColumnName("varchar")
+            .HasColumnName("Letra")
+            .HasColumnType("varchar")
             .HasMaxLength(5)
             .IsRequired();
 
@@ -59,7 +61,7 @@ public class DireccionConfiguration : IEntityTypeConfiguration<Direccion>
 
         builder.Property(p => p.PersonaFK)
             .HasColumnName("Persona_FK")
-            .HasColumnType("int")
+            .HasColumnType("bigint")                        
             .IsRequired();
 
         builder.HasOne(p => p.Personas)

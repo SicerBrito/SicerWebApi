@@ -1,12 +1,20 @@
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
+using Dominio.Entities;
+using Microsoft.EntityFrameworkCore;
+using Microsoft.EntityFrameworkCore.Metadata.Builders;
 
-namespace Persistencia.Data.Configuration
+namespace Persistencia.Data.Configuration;
+public class TipoDocumentoConfiguration : IEntityTypeConfiguration<TipoDocumento>
 {
-    public class TipoDocumentoConfiguration
+    public void Configure(EntityTypeBuilder<TipoDocumento> builder)
     {
-        
+        builder.ToTable("TipoDeDocumento");
+
+        builder.Property(p => p.PKNombreTipo)
+            .HasColumnName("PKNombreTipo")
+            .HasColumnType("varchar")
+            .HasMaxLength(20)
+            .IsRequired();
+
+
     }
 }

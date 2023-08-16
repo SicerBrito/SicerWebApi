@@ -4,8 +4,7 @@ namespace Dominio.Entities;
     public class Matricula{
         
         [Key]
-        public int PKMatricula { get; set; }
-        public string ? PersonaFK { get; set; }
+        public int PersonaFK { get; set; }
         public Persona ? Personas { get; set; }
         public string ? SalonFK { get; set; }
         public Salon ? Salones { get; set; }

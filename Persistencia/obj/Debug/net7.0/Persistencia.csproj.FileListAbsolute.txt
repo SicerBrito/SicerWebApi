@@ -1,0 +1,17 @@
+/home/skylab-4/Documents/Sicer/NetCore/SicerWebApi/Persistencia/bin/Debug/net7.0/Persistencia.deps.json
+/home/skylab-4/Documents/Sicer/NetCore/SicerWebApi/Persistencia/bin/Debug/net7.0/Persistencia.runtimeconfig.json
+/home/skylab-4/Documents/Sicer/NetCore/SicerWebApi/Persistencia/bin/Debug/net7.0/Persistencia.dll
+/home/skylab-4/Documents/Sicer/NetCore/SicerWebApi/Persistencia/bin/Debug/net7.0/Persistencia.pdb
+/home/skylab-4/Documents/Sicer/NetCore/SicerWebApi/Persistencia/bin/Debug/net7.0/Dominio.dll
+/home/skylab-4/Documents/Sicer/NetCore/SicerWebApi/Persistencia/bin/Debug/net7.0/Dominio.pdb
+/home/skylab-4/Documents/Sicer/NetCore/SicerWebApi/Persistencia/obj/Debug/net7.0/Persistencia.csproj.AssemblyReference.cache
+/home/skylab-4/Documents/Sicer/NetCore/SicerWebApi/Persistencia/obj/Debug/net7.0/Persistencia.GeneratedMSBuildEditorConfig.editorconfig
+/home/skylab-4/Documents/Sicer/NetCore/SicerWebApi/Persistencia/obj/Debug/net7.0/Persistencia.AssemblyInfoInputs.cache
+/home/skylab-4/Documents/Sicer/NetCore/SicerWebApi/Persistencia/obj/Debug/net7.0/Persistencia.AssemblyInfo.cs
+/home/skylab-4/Documents/Sicer/NetCore/SicerWebApi/Persistencia/obj/Debug/net7.0/Persistencia.csproj.CoreCompileInputs.cache
+/home/skylab-4/Documents/Sicer/NetCore/SicerWebApi/Persistencia/obj/Debug/net7.0/Persistencia.csproj.CopyComplete
+/home/skylab-4/Documents/Sicer/NetCore/SicerWebApi/Persistencia/obj/Debug/net7.0/Persistencia.dll
+/home/skylab-4/Documents/Sicer/NetCore/SicerWebApi/Persistencia/obj/Debug/net7.0/refint/Persistencia.dll
+/home/skylab-4/Documents/Sicer/NetCore/SicerWebApi/Persistencia/obj/Debug/net7.0/Persistencia.pdb
+/home/skylab-4/Documents/Sicer/NetCore/SicerWebApi/Persistencia/obj/Debug/net7.0/Persistencia.genruntimeconfig.cache
+/home/skylab-4/Documents/Sicer/NetCore/SicerWebApi/Persistencia/obj/Debug/net7.0/ref/Persistencia.dll

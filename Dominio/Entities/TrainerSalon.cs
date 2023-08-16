@@ -6,7 +6,7 @@ namespace Dominio.Entities;
         [Key]
         public int PersonaFK { get; set; }
         public Persona ? Personas { get; set; }
-        public int SalonFK { get; set; }
+        public string ? SalonFK { get; set; }
         public Salon ? Salones { get; set; }
         
     }

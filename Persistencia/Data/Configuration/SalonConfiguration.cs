@@ -7,6 +7,17 @@ public class SalonConfiguration : IEntityTypeConfiguration<Salon>
 {
     public void Configure(EntityTypeBuilder<Salon> builder)
     {
-        throw new NotImplementedException();
+        builder.ToTable("Salon");
+
+        builder.Property(p => p.PKNombreSalon)
+            .HasColumnName("PKSalon")
+            .HasColumnType("varchar")
+            .HasMaxLength(25)
+            .IsRequired();
+
+        builder.Property(p => p.Capacidad)
+            .HasColumnName("Capacidad")
+            .HasColumnType("int")
+            .IsRequired();
     }
 }

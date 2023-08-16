@@ -153,8 +153,10 @@ Estas son las carpertas de configuracion las cuales vamos a utilizar para nuestr
 
 
 - ### Migrations
-    - dotnet ef migrations add InitialCreate --project ./Persistencia/ --startup-project ./DinoApi/ --output-dir ./Data/Migrations ✈️🔧
-    - dotnet ef database update --project ./Persistencia/ --startup-project ./DinoApi/ ✈️🔧
+    - dotnet ef migrations add InitialCreate --project ./Persistencia/ --startup-project ./ApiIncidencias/ --output-dir ./Data/Migrations ✈️🔧
+    - dotnet ef database update --project ./Persistencia/ --startup-project ./ApiIncidencias/ ✈️🔧
 
 ---
+
+
 

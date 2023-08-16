@@ -11,7 +11,7 @@ public class PersonaConfiguration : IEntityTypeConfiguration<Persona>
 
         builder.Property(p => p.PKCedula)
             .HasColumnName("Cedula_PK")
-            .HasColumnType("int")
+            .HasColumnType("bigint")
             .IsRequired();
 
         builder.Property(p => p.Nombres)

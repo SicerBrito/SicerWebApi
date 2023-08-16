@@ -1,0 +1,17 @@
+/home/skylab-4/Documents/Sicer/NetCore/SicerWebApi/Aplicacion/bin/Debug/net7.0/Aplicacion.deps.json
+/home/skylab-4/Documents/Sicer/NetCore/SicerWebApi/Aplicacion/bin/Debug/net7.0/Aplicacion.dll
+/home/skylab-4/Documents/Sicer/NetCore/SicerWebApi/Aplicacion/bin/Debug/net7.0/Aplicacion.pdb
+/home/skylab-4/Documents/Sicer/NetCore/SicerWebApi/Aplicacion/bin/Debug/net7.0/Dominio.dll
+/home/skylab-4/Documents/Sicer/NetCore/SicerWebApi/Aplicacion/bin/Debug/net7.0/Persistencia.dll
+/home/skylab-4/Documents/Sicer/NetCore/SicerWebApi/Aplicacion/bin/Debug/net7.0/Dominio.pdb
+/home/skylab-4/Documents/Sicer/NetCore/SicerWebApi/Aplicacion/bin/Debug/net7.0/Persistencia.pdb
+/home/skylab-4/Documents/Sicer/NetCore/SicerWebApi/Aplicacion/obj/Debug/net7.0/Aplicacion.csproj.AssemblyReference.cache
+/home/skylab-4/Documents/Sicer/NetCore/SicerWebApi/Aplicacion/obj/Debug/net7.0/Aplicacion.GeneratedMSBuildEditorConfig.editorconfig
+/home/skylab-4/Documents/Sicer/NetCore/SicerWebApi/Aplicacion/obj/Debug/net7.0/Aplicacion.AssemblyInfoInputs.cache
+/home/skylab-4/Documents/Sicer/NetCore/SicerWebApi/Aplicacion/obj/Debug/net7.0/Aplicacion.AssemblyInfo.cs
+/home/skylab-4/Documents/Sicer/NetCore/SicerWebApi/Aplicacion/obj/Debug/net7.0/Aplicacion.csproj.CoreCompileInputs.cache
+/home/skylab-4/Documents/Sicer/NetCore/SicerWebApi/Aplicacion/obj/Debug/net7.0/Aplicacion.csproj.CopyComplete
+/home/skylab-4/Documents/Sicer/NetCore/SicerWebApi/Aplicacion/obj/Debug/net7.0/Aplicacion.dll
+/home/skylab-4/Documents/Sicer/NetCore/SicerWebApi/Aplicacion/obj/Debug/net7.0/refint/Aplicacion.dll
+/home/skylab-4/Documents/Sicer/NetCore/SicerWebApi/Aplicacion/obj/Debug/net7.0/Aplicacion.pdb
+/home/skylab-4/Documents/Sicer/NetCore/SicerWebApi/Aplicacion/obj/Debug/net7.0/ref/Aplicacion.dll
