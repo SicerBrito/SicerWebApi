@@ -1,12 +1,15 @@
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
+using System.Linq.Expressions;
+using Dominio.Entities;
 
-namespace Dominio.Interfaces
-{
+namespace Dominio.Interfaces;
     public interface IDepartamento
     {
-        
+        Task<Departamento> ? GetByIdAsync(string Id);
+        Task<IEnumerable<Departamento>> GetAllAsync();
+        IEnumerable<Departamento> Find(Expression<Func<Departamento, bool>> expression);
+        void Add(Departamento entity);
+        void AddRange(IEnumerable<Departamento> entities);
+        void Remove(Departamento entity);
+        void RemoveRange(IEnumerable<Departamento> entities);
+        void Update(Departamento entity);
     }
-}

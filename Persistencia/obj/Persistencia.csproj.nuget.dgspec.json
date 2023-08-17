@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "/home/apolM01-053/Documents/Sicer/NetCore/SicerWebApi/Persistencia/Persistencia.csproj": {}
+    "/home/skylab-4/Documents/Sicer/NetCore/SicerWebApi/Persistencia/Persistencia.csproj": {}
   },
   "projects": {
-    "/home/apolM01-053/Documents/Sicer/NetCore/SicerWebApi/Dominio/Dominio.csproj": {
+    "/home/skylab-4/Documents/Sicer/NetCore/SicerWebApi/Dominio/Dominio.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/apolM01-053/Documents/Sicer/NetCore/SicerWebApi/Dominio/Dominio.csproj",
+        "projectUniqueName": "/home/skylab-4/Documents/Sicer/NetCore/SicerWebApi/Dominio/Dominio.csproj",
         "projectName": "Dominio",
-        "projectPath": "/home/apolM01-053/Documents/Sicer/NetCore/SicerWebApi/Dominio/Dominio.csproj",
-        "packagesPath": "/home/apolM01-053/.nuget/packages/",
-        "outputPath": "/home/apolM01-053/Documents/Sicer/NetCore/SicerWebApi/Dominio/obj/",
+        "projectPath": "/home/skylab-4/Documents/Sicer/NetCore/SicerWebApi/Dominio/Dominio.csproj",
+        "packagesPath": "/home/skylab-4/.nuget/packages/",
+        "outputPath": "/home/skylab-4/Documents/Sicer/NetCore/SicerWebApi/Dominio/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/home/apolM01-053/.nuget/NuGet/NuGet.Config"
+          "/home/skylab-4/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net7.0"
@@ -79,17 +79,17 @@
         }
       }
     },
-    "/home/apolM01-053/Documents/Sicer/NetCore/SicerWebApi/Persistencia/Persistencia.csproj": {
+    "/home/skylab-4/Documents/Sicer/NetCore/SicerWebApi/Persistencia/Persistencia.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/apolM01-053/Documents/Sicer/NetCore/SicerWebApi/Persistencia/Persistencia.csproj",
+        "projectUniqueName": "/home/skylab-4/Documents/Sicer/NetCore/SicerWebApi/Persistencia/Persistencia.csproj",
         "projectName": "Persistencia",
-        "projectPath": "/home/apolM01-053/Documents/Sicer/NetCore/SicerWebApi/Persistencia/Persistencia.csproj",
-        "packagesPath": "/home/apolM01-053/.nuget/packages/",
-        "outputPath": "/home/apolM01-053/Documents/Sicer/NetCore/SicerWebApi/Persistencia/obj/",
+        "projectPath": "/home/skylab-4/Documents/Sicer/NetCore/SicerWebApi/Persistencia/Persistencia.csproj",
+        "packagesPath": "/home/skylab-4/.nuget/packages/",
+        "outputPath": "/home/skylab-4/Documents/Sicer/NetCore/SicerWebApi/Persistencia/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/home/apolM01-053/.nuget/NuGet/NuGet.Config"
+          "/home/skylab-4/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net7.0"
@@ -101,8 +101,8 @@
           "net7.0": {
             "targetAlias": "net7.0",
             "projectReferences": {
-              "/home/apolM01-053/Documents/Sicer/NetCore/SicerWebApi/Dominio/Dominio.csproj": {
-                "projectPath": "/home/apolM01-053/Documents/Sicer/NetCore/SicerWebApi/Dominio/Dominio.csproj"
+              "/home/skylab-4/Documents/Sicer/NetCore/SicerWebApi/Dominio/Dominio.csproj": {
+                "projectPath": "/home/skylab-4/Documents/Sicer/NetCore/SicerWebApi/Dominio/Dominio.csproj"
               }
             }
           }

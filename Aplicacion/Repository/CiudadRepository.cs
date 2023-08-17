@@ -3,7 +3,7 @@ using Dominio.Entities;
 using Dominio.Interfaces;
 
 namespace Aplicacion.Repository;
-public class CiudadConfiguration : IGenericRepository<Ciudad>
+public class CiudadRepository : IGenericRepository<Ciudad>
 {
     public void Add(Ciudad entity)
     {
