@@ -127,7 +127,7 @@ Estas son las carpertas de configuracion las cuales vamos a utilizar para nuestr
 ---
 
 
-## Gestión de Datos 🧑‍💻
+## Gestión de Datos
 
 - ### Instalacion de Paquetes
     - Dominio 📂🔧
