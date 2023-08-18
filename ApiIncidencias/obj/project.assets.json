@@ -6063,19 +6063,19 @@
     ]
   },
   "packageFolders": {
-    "/home/skylab-4/.nuget/packages/": {}
+    "/home/skylab-102/.nuget/packages/": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/home/skylab-4/Documents/Sicer/NetCore/SicerWebApi/ApiIncidencias/ApiIncidencias.csproj",
+      "projectUniqueName": "/home/skylab-102/Documents/Sicer/NetCore/SicerWebApi/ApiIncidencias/ApiIncidencias.csproj",
       "projectName": "ApiIncidencias",
-      "projectPath": "/home/skylab-4/Documents/Sicer/NetCore/SicerWebApi/ApiIncidencias/ApiIncidencias.csproj",
-      "packagesPath": "/home/skylab-4/.nuget/packages/",
-      "outputPath": "/home/skylab-4/Documents/Sicer/NetCore/SicerWebApi/ApiIncidencias/obj/",
+      "projectPath": "/home/skylab-102/Documents/Sicer/NetCore/SicerWebApi/ApiIncidencias/ApiIncidencias.csproj",
+      "packagesPath": "/home/skylab-102/.nuget/packages/",
+      "outputPath": "/home/skylab-102/Documents/Sicer/NetCore/SicerWebApi/ApiIncidencias/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "/home/skylab-4/.nuget/NuGet/NuGet.Config"
+        "/home/skylab-102/.nuget/NuGet/NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net7.0"
@@ -6087,8 +6087,8 @@
         "net7.0": {
           "targetAlias": "net7.0",
           "projectReferences": {
-            "/home/skylab-4/Documents/Sicer/NetCore/SicerWebApi/Aplicacion/Aplicacion.csproj": {
-              "projectPath": "/home/skylab-4/Documents/Sicer/NetCore/SicerWebApi/Aplicacion/Aplicacion.csproj"
+            "/home/skylab-102/Documents/Sicer/NetCore/SicerWebApi/Aplicacion/Aplicacion.csproj": {
+              "projectPath": "/home/skylab-102/Documents/Sicer/NetCore/SicerWebApi/Aplicacion/Aplicacion.csproj"
             }
           }
         }

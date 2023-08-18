@@ -132,29 +132,71 @@ Estas son las carpertas de configuracion las cuales vamos a utilizar para nuestr
 - ### Instalacion de Paquetes
     - Dominio 📂🔧
         - dotnet add package Microsoft.EntityFrameworkCore --version 7.0.10
+            - Agrega el paquete "Microsoft.EntityFrameworkCore" con la versión 7.0.10 al proyecto actual. Entity Framework Core es una biblioteca popular para el acceso a bases de datos en proyectos .NET Core, y esta instrucción instalará la versión específica 7.0.10 de dicha biblioteca en el proyecto. Esto permitirá al proyecto utilizar Entity Framework Core para interactuar con bases de datos.
+            ---
+
         - dotnet add package MediatR.Extensions.Microsoft.DependencyInjection --version 11.1.0
+            - Agrega el paquete "MediatR.Extensions.Microsoft.DependencyInjection" con la versión 11.1.0 al proyecto actual. MediatR es una biblioteca que implementa el patrón Mediator para la comunicación entre componentes en aplicaciones .NET, y este paquete proporciona integración con la inyección de dependencias de Microsoft.
+            ---
+
         - dotnet add package AutoMapper.Extensions.Microsoft.DependencyInjection --version 12.0.1
+            - Agrega el paquete "AutoMapper.Extensions.Microsoft.DependencyInjection" con la versión 12.0.1 al proyecto actual. Este paquete proporciona extensiones para el framework AutoMapper que permiten una fácil integración con la inyección de dependencias de Microsoft.
+            ---
+
         - dotnet add package FluentValidation.AspNetCore --version 11.3.0
+            - Agrega el paquete "FluentValidation.AspNetCore" con la versión 11.3.0 al proyecto actual. FluentValidation es una biblioteca que permite realizar validaciones en modelos de forma sencilla y declarativa, y este paquete proporciona integración con ASP.NET Core.
+            ---
+
         - dotnet add package itext7.pdfhtml --version 5.0.1
+            - Agrega el paquete "itext7.pdfhtml" con la versión 5.0.1 al proyecto actual. Este paquete pertenece a iText 7, una biblioteca utilizada para trabajar con archivos PDF en aplicaciones .NET. En particular, "itext7.pdfhtml" es una extensión de iText 7 que permite convertir documentos HTML a PDF.
+            ---
 
 
     - Persistencia 📂🔧
         - dotnet add package Microsoft.EntityFrameworkCore --version 7.0.10
+            - Agrega el paquete "Microsoft.EntityFrameworkCore" con la versión 7.0.10 al proyecto actual. Entity Framework Core es una biblioteca popular para el acceso a bases de datos en proyectos .NET Core, y esta instrucción instalará la versión específica 7.0.10 de dicha biblioteca en el proyecto. Esto permitirá al proyecto utilizar Entity Framework Core para interactuar con bases de datos.
+            ---
+
         - dotnet add package Pomelo.EntityFrameworkCore.MySql --version 7.0.0
+            - Agrega el paquete "Pomelo.EntityFrameworkCore.MySql" con la versión 7.0.0 al proyecto actual. Este paquete proporciona soporte para MySQL en Entity Framework Core y es una opción popular para interactuar con bases de datos MySQL en proyectos .NET Core.
+            ---
+
         - dotnet add package Microsoft.EntityFrameworkCore.Tools --version 7.0.10
+            - Agrega el paquete "Microsoft.EntityFrameworkCore.Tools" con la versión 7.0.10 al proyecto actual. Este paquete proporciona herramientas adicionales para trabajar con Entity Framework Core, incluyendo comandos para realizar migraciones de base de datos y generar código a partir de modelos.
+            ---
+
         - dotnet add package Dapper --version 2.0.143
+            - Agrega el paquete "Dapper" con la versión 2.0.143 al proyecto actual. Dapper es una biblioteca que facilita el acceso y la manipulación de bases de datos en aplicaciones .NET mediante consultas SQL. Proporciona una forma sencilla y eficiente de mapear resultados de consultas a objetos.
+            ---
+
 
     - DinoApi 📂🔧
         - dotnet add package Microsoft.EntityFrameworkCore.Design --version 7.0.10
-        - dotnet add package Newtonsoft.Json --version 13.0.3
-        - dotnet add package Microsoft.AspNetCore.Authentication.JwtBearer --version 7.0.10
-        - dotnet add package Swashbuckle.AspNetCore --version 6.5.0
+            - Agrega el paquete "Microsoft.EntityFrameworkCore.Design" con la versión 7.0.10 al proyecto actual. Este paquete proporciona herramientas de diseño para Entity Framework Core, que son útiles para trabajar con bases de datos y realizar migraciones en proyectos .NET Core.
+            ---
 
+        - dotnet add package Newtonsoft.Json --version 13.0.3
+            - Agrega el paquete "Newtonsoft.Json" con la versión 13.0.3 al proyecto actual. Newtonsoft.Json es una biblioteca muy utilizada para trabajar con formato JSON en aplicaciones .NET. Proporciona funciones para serializar y deserializar objetos en formato JSON.
+            ---
+
+        - dotnet add package Microsoft.AspNetCore.Authentication.JwtBearer --version 7.0.10
+            - Agrega el paquete "Microsoft.AspNetCore.Authentication.JwtBearer" con la versión 7.0.10 al proyecto actual. Este paquete proporciona funcionalidad para la autenticación basada en tokens JWT (JSON Web Tokens) en aplicaciones ASP.NET Core.
+            ---
+
+        - dotnet add package Swashbuckle.AspNetCore --version 6.5.0
+            - Agrega el paquete "Swashbuckle.AspNetCore" con la versión 6.5.0 al proyecto actual. Swashbuckle.AspNetCore es una biblioteca que permite generar automáticamente una documentación interactiva (Swagger UI) para tu API ASP.NET Core, lo que facilita la exploración y prueba de los endpoints de la API.
+            ---
+
+<img src="https://cdn.icon-icons.com/icons2/2699/PNG/512/nuget_logo_icon_170908.png" alt="https://cdn.icon-icons.com/icons2/2699/PNG/512/nuget_logo_icon_170908.png" style="width: 3000px;">
 
 
 - ### Migrations
-    - dotnet ef migrations add InitialCreate --project ./Persistencia/ --startup-project ./ApiIncidencias/ --output-dir ./Data/Migrations ✈️🔧
-    - dotnet ef database update --project ./Persistencia/ --startup-project ./ApiIncidencias/ ✈️🔧
+    - dotnet ef migrations add InitialCreate --project ./Persistencia/ --startup-project ./ApiIncidencias/ --output-dir ./Data/Migrations/  ✈️🔧
+        - Este comando genera una migración inicial llamada "InitialCreate" utilizando Entity Framework Core. Las migraciones permiten mantener sincronizada la estructura de la base de datos con los cambios en el modelo de datos en proyectos .NET Core.
+        ---
+    - dotnet ef database update --project ./Persistencia/ --startup-project ./ApiIncidencias/  ✈️🔧
+        - este comando aplica las migraciones pendientes en la base de datos, lo que implica actualizar la estructura de la base de datos para que coincida con el estado actual del modelo de datos en los proyectos .NET Core involucrados.
+        ---
 
 ---
 
