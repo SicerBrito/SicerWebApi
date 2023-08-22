@@ -27,7 +27,7 @@ En esta ocasión voy a realizar un proyecto personal junto con su documentacion 
         - [Instalacion de Paquetes](#instalacion-de-paquetes)
             - [Dominio](#dominio)
             - [Persistencia](#persistencia)
-            - [Api](#api)
+            - [WebApi](#webapi)
         - [Migraciones](#migraciones)
             - [Crear](#crear)
             - [Actualizar](#actualizar)
@@ -45,13 +45,13 @@ Estas son las carpertas de configuracion las cuales vamos a utilizar para nuestr
         Aqui se crean las tablas que representan la BD y van a estar ubicadas las carpetas de Entidades e Interfaces.
 
  - 📂 En Persistencia  
-        Aqui se crea la instancia de conexion a la BD y van a estar ubicadas las carpetas de Data, Configuracion y Migraciones.
+        Aqui se crea la instancia de conexion a la BD y van a estar ubicadas las carpetas de Data, Configuracion, Archivo context y Migraciones.
 
  - 📂 En Aplicacion  
         Aqui se crea la inyeccion de dependecia para la comunicacion con el WebApi y van a estar ubicadas las carpetas de Unidad de trabajo y Repositorios.
         
  - 📂 En WebApi  
-        Aqui se crean clases encargadas de recibir peticiones de los clientes y van a estar ubicadas las carpetas de Controladores y Extenciones.
+        Aqui se crean clases encargadas de recibir peticiones de los clientes y van a estar ubicadas las carpetas de Controladores, helpers, Dtos, Profile, Contenedor de dependecias(program.cs) y Extenciones.
 
 ---
 
@@ -187,14 +187,14 @@ Estas son las carpertas de configuracion las cuales vamos a utilizar para nuestr
 
             ---
 
-        - dotnet add package Dapper --version 2.0.143  📂🔧
+        - dotnet add package Dapper --version 2.0.151  📂🔧
 
            Agrega el paquete "Dapper" con la versión 2.0.143 al proyecto actual. Dapper es una biblioteca que facilita el acceso y la manipulación de bases de datos en aplicaciones .NET mediante consultas SQL. Proporciona una forma sencilla y eficiente de mapear resultados de consultas a objetos.
 
             ---
 
 
-    - ### Api 
+    - ### WebApi 
 
         - dotnet add package Microsoft.EntityFrameworkCore.Design --version 7.0.10  📂🔧
 
