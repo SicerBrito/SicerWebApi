@@ -1,8 +1,7 @@
 using System.Linq.Expressions;
 
 namespace Dominio.Interfaces;
-    public interface IGenericRepository<T> where T : class
-    {
+    public interface IGenericRepository<T> where T : class{
         
         Task<T> ? GetByIdAsync(string Id);
         Task<IEnumerable<T>> GetAllAsync();

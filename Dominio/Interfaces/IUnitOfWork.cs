@@ -1,6 +1,5 @@
 namespace Dominio.Interfaces;
-    public interface IUnitOfWork
-    {
+    public interface IUnitOfWork<T> where T : class{
         ICiudad ? Ciudades { get; }
         IDepartamento ? Departamentos { get; }
         IDireccion ? Direcciones { get; }
@@ -14,4 +13,5 @@ namespace Dominio.Interfaces;
         ITipoVia ? TipoDeVias { get; }
         ITrainerSalon ? TrainersDeSalones { get; }
         Task<int> SaveAsync();
+        
     }
