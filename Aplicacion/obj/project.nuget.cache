@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "EBvn7hI6Fy8tLRTgYv4BV9jDHTAbgQzb7VAvV3gccdI+HJAJoBGXXd8cJoMqaXNKg0c0dC1WnhpTjCg/Jv7fBg==",
+  "dgSpecHash": "StDnUeyJwbm2EN5YV4lv/uwOmS34Ega9UzOnekCrVSEOYn+XCaniXML3OIkAsaE9FbqXZB43ed+MaE+ppQalqw==",
   "success": true,
-  "projectFilePath": "/home/apolM01-053/Documents/Sicer/NetCore/SicerWebApi/Aplicacion/Aplicacion.csproj",
+  "projectFilePath": "/home/apolM01-053/Documents/SicerWebApi/Aplicacion/Aplicacion.csproj",
   "expectedPackageFiles": [
     "/home/apolM01-053/.nuget/packages/automapper/12.0.1/automapper.12.0.1.nupkg.sha512",
     "/home/apolM01-053/.nuget/packages/automapper.extensions.microsoft.dependencyinjection/12.0.1/automapper.extensions.microsoft.dependencyinjection.12.0.1.nupkg.sha512",

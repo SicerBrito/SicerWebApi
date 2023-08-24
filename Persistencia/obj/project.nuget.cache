@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "mO4mHpHW7y1XMP46CZsmIimSTWe6RuaNWcvHrL38m76uNdOQ0erX5hxyQSodVusW7qGJZfDEDOkkx9TgdHa/LA==",
+  "dgSpecHash": "WSbh4nLPmrGe6PicNOjSVjba6wdkYjErcOPjN7D/NfJv6/dENZxBpWyYE7ujRg91ayGn5h077GnmPE2hHHjPeQ==",
   "success": true,
-  "projectFilePath": "/home/apolM01-053/Documents/Sicer/NetCore/SicerWebApi/Persistencia/Persistencia.csproj",
+  "projectFilePath": "/home/apolM01-053/Documents/SicerWebApi/Persistencia/Persistencia.csproj",
   "expectedPackageFiles": [
     "/home/apolM01-053/.nuget/packages/automapper/12.0.1/automapper.12.0.1.nupkg.sha512",
     "/home/apolM01-053/.nuget/packages/automapper.extensions.microsoft.dependencyinjection/12.0.1/automapper.extensions.microsoft.dependencyinjection.12.0.1.nupkg.sha512",

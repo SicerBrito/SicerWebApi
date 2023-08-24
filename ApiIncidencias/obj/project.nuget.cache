@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "zl0m5/LKinZR40aUxLjx3g95UDmC+1LBtn90s00aLQpXh23oFanG2iEy+ncPqMAcJhFn5bYG29Ofj0ww06f2Dg==",
+  "dgSpecHash": "OrnysQS8f8ppnr4F9xC5kAB6+PKBTKXD1SbfSo8uqwqviUxuGETmOAXEdesI6Vjdr9oPwSMrTYa6vJLSAbbnOw==",
   "success": true,
-  "projectFilePath": "/home/apolM01-053/Documents/Sicer/NetCore/SicerWebApi/ApiIncidencias/ApiIncidencias.csproj",
+  "projectFilePath": "/home/apolM01-053/Documents/SicerWebApi/ApiIncidencias/ApiIncidencias.csproj",
   "expectedPackageFiles": [
     "/home/apolM01-053/.nuget/packages/automapper/12.0.1/automapper.12.0.1.nupkg.sha512",
     "/home/apolM01-053/.nuget/packages/automapper.extensions.microsoft.dependencyinjection/12.0.1/automapper.extensions.microsoft.dependencyinjection.12.0.1.nupkg.sha512",

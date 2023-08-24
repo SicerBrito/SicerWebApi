@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "eyDhOoaPGi7xT+f42rQTKYiRzqalzrZxc88/yBSehlMeReEx082qt3q8vuo5Zb7T0I3n5+bReOxYsDGTyKkPsA==",
+  "dgSpecHash": "y6qXU5dtYfHlRnpKjkPRm6pnCUtwb7FVMb6GAy82r5vVHEVUzNwOVzp94WU4rGUMqphhHEXybKavpcmMqU4vlw==",
   "success": true,
-  "projectFilePath": "/home/apolM01-053/Documents/Sicer/NetCore/SicerWebApi/Dominio/Dominio.csproj",
+  "projectFilePath": "/home/apolM01-053/Documents/SicerWebApi/Dominio/Dominio.csproj",
   "expectedPackageFiles": [
     "/home/apolM01-053/.nuget/packages/automapper/12.0.1/automapper.12.0.1.nupkg.sha512",
     "/home/apolM01-053/.nuget/packages/automapper.extensions.microsoft.dependencyinjection/12.0.1/automapper.extensions.microsoft.dependencyinjection.12.0.1.nupkg.sha512",

@@ -18,20 +18,20 @@
 # Índice 📖
 En esta ocasión voy a realizar un proyecto personal junto con su documentacion con el objetivo de mejorar mis habilidades en .Net
 
-- [Documentación](#documentación)
-    - [Estructura del Proyecto](#estructura-del-proyecto)
-    - [Terminal](#terminal)
-        - [Estructura Base](#estructura-base)
-        - [Referencias](#referencias)
-    - [Gestión de Datos](#gestión-de-datos)
-        - [Instalacion de Paquetes](#instalacion-de-paquetes)
-            - [Dominio😼](#dominio)
-            - [Persistencia](#persistencia)
-            - [WebApi](#webapi)
-        - [Migraciones](#migraciones)
-            - [Crear](#crear)
-            - [Actualizar](#actualizar)
-        - [Visualización de posibles errores](#visualización-de-posibles-errores)
+- [Documentación](#documentación) 📄
+    - [Estructura del Proyecto](#estructura-del-proyecto) 🏗️
+    - [Terminal](#terminal) ⚙️
+        - [Estructura Base](#estructura-base) 🚧
+        - [Referencias](#referencias) 🔗
+    - [Gestión de Datos](#gestión-de-datos) 📇
+        - [Instalacion de Paquetes](#instalacion-de-paquetes) ⏬
+            - [Dominio](#dominio) 📂
+            - [Persistencia](#persistencia) 📂
+            - [WebApi](#webapi) 📂
+        - [Migraciones](#migraciones) ✈️
+            - [Crear](#crear) 🔧
+            - [Actualizar](#actualizar) 🔧
+        - [Visualización de posibles errores](#visualización-de-posibles-errores) ⁉️
 
 
 ---

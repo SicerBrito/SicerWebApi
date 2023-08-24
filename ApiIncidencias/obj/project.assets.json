@@ -6068,11 +6068,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/home/apolM01-053/Documents/Sicer/NetCore/SicerWebApi/ApiIncidencias/ApiIncidencias.csproj",
+      "projectUniqueName": "/home/apolM01-053/Documents/SicerWebApi/ApiIncidencias/ApiIncidencias.csproj",
       "projectName": "ApiIncidencias",
-      "projectPath": "/home/apolM01-053/Documents/Sicer/NetCore/SicerWebApi/ApiIncidencias/ApiIncidencias.csproj",
+      "projectPath": "/home/apolM01-053/Documents/SicerWebApi/ApiIncidencias/ApiIncidencias.csproj",
       "packagesPath": "/home/apolM01-053/.nuget/packages/",
-      "outputPath": "/home/apolM01-053/Documents/Sicer/NetCore/SicerWebApi/ApiIncidencias/obj/",
+      "outputPath": "/home/apolM01-053/Documents/SicerWebApi/ApiIncidencias/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/home/apolM01-053/.nuget/NuGet/NuGet.Config"
@@ -6087,8 +6087,8 @@
         "net7.0": {
           "targetAlias": "net7.0",
           "projectReferences": {
-            "/home/apolM01-053/Documents/Sicer/NetCore/SicerWebApi/Aplicacion/Aplicacion.csproj": {
-              "projectPath": "/home/apolM01-053/Documents/Sicer/NetCore/SicerWebApi/Aplicacion/Aplicacion.csproj"
+            "/home/apolM01-053/Documents/SicerWebApi/Aplicacion/Aplicacion.csproj": {
+              "projectPath": "/home/apolM01-053/Documents/SicerWebApi/Aplicacion/Aplicacion.csproj"
             }
           }
         }

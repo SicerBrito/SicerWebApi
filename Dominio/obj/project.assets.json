@@ -5273,11 +5273,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/home/apolM01-053/Documents/Sicer/NetCore/SicerWebApi/Dominio/Dominio.csproj",
+      "projectUniqueName": "/home/apolM01-053/Documents/SicerWebApi/Dominio/Dominio.csproj",
       "projectName": "Dominio",
-      "projectPath": "/home/apolM01-053/Documents/Sicer/NetCore/SicerWebApi/Dominio/Dominio.csproj",
+      "projectPath": "/home/apolM01-053/Documents/SicerWebApi/Dominio/Dominio.csproj",
       "packagesPath": "/home/apolM01-053/.nuget/packages/",
-      "outputPath": "/home/apolM01-053/Documents/Sicer/NetCore/SicerWebApi/Dominio/obj/",
+      "outputPath": "/home/apolM01-053/Documents/SicerWebApi/Dominio/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/home/apolM01-053/.nuget/NuGet/NuGet.Config"
