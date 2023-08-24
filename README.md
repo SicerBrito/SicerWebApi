@@ -25,7 +25,7 @@ En esta ocasión voy a realizar un proyecto personal junto con su documentacion 
         - [Referencias](#referencias)
     - [Gestión de Datos](#gestión-de-datos)
         - [Instalacion de Paquetes](#instalacion-de-paquetes)
-            - [Dominio](#dominio)
+            - [Dominio 😼](#dominio)
             - [Persistencia](#persistencia)
             - [WebApi](#webapi)
         - [Migraciones](#migraciones)
