@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "01VSbnVLuowlpczBD2dZ/QHB4R/CFM1ahZpu2Nv/sH3S5K8/cIFVwnAWXG2BJmjTTjxcCBV4rmocKxsWInzrOw==",
+  "dgSpecHash": "cPzaKfSSCXdW3YjaCPNuXaBJj30B1BKxPuOu1PaF5FFmR8TQOBR/YJ3EukyHrDXDYOrgvcDZIgYffBGKmYg/hg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\APM01-53\\Documents\\SicerWebApi\\Persistencia\\Persistencia.csproj",
+  "projectFilePath": "c:\\Users\\APM01-53\\Documents\\SicerWebApi\\Persistencia\\Persistencia.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\APM01-53\\.nuget\\packages\\automapper\\12.0.1\\automapper.12.0.1.nupkg.sha512",
     "C:\\Users\\APM01-53\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\12.0.1\\automapper.extensions.microsoft.dependencyinjection.12.0.1.nupkg.sha512",

@@ -1,7 +1,7 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\APM01-53\\Documents\\SicerWebApi\\Persistencia\\Persistencia.csproj": {}
+    "c:\\Users\\APM01-53\\Documents\\SicerWebApi\\Persistencia\\Persistencia.csproj": {}
   },
   "projects": {
     "c:\\Users\\APM01-53\\Documents\\SicerWebApi\\Dominio\\Dominio.csproj": {
@@ -79,14 +79,14 @@
         }
       }
     },
-    "C:\\Users\\APM01-53\\Documents\\SicerWebApi\\Persistencia\\Persistencia.csproj": {
+    "c:\\Users\\APM01-53\\Documents\\SicerWebApi\\Persistencia\\Persistencia.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\APM01-53\\Documents\\SicerWebApi\\Persistencia\\Persistencia.csproj",
+        "projectUniqueName": "c:\\Users\\APM01-53\\Documents\\SicerWebApi\\Persistencia\\Persistencia.csproj",
         "projectName": "Persistencia",
-        "projectPath": "C:\\Users\\APM01-53\\Documents\\SicerWebApi\\Persistencia\\Persistencia.csproj",
+        "projectPath": "c:\\Users\\APM01-53\\Documents\\SicerWebApi\\Persistencia\\Persistencia.csproj",
         "packagesPath": "C:\\Users\\APM01-53\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\APM01-53\\Documents\\SicerWebApi\\Persistencia\\obj\\",
+        "outputPath": "c:\\Users\\APM01-53\\Documents\\SicerWebApi\\Persistencia\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\APM01-53\\AppData\\Roaming\\NuGet\\NuGet.Config"
