@@ -53,6 +53,9 @@ Estas son las carpertas de configuracion las cuales vamos a utilizar para nuestr
  - 📂 En WebApi  
         Aqui se crean clases encargadas de recibir peticiones de los clientes y van a estar ubicadas las carpetas de Controladores, helpers, Dtos, Profile, Contenedor de dependecias(program.cs) y Extenciones.
 
+ - 📂 En Seguridad  
+        Aqui se crean clases encargadas de la configuración de los archivos JWT(JSON Web Tokens) para la seguridad de nuestro proyecto.
+
 ---
 
    <img src="./Img/Relaciones.png" alt="Relaciones" style="width: 3000px;">
@@ -88,20 +91,26 @@ Estas son las carpertas de configuracion las cuales vamos a utilizar para nuestr
     6. dotnet new classlib -o Aplicacion 🚧🔧
         --> Crea un nuevo proyecto de biblioteca de clases utilizando .NET Core y lo guarda en la carpeta "Aplicacion". Las bibliotecas de clases son conjuntos de código reutilizable que pueden ser referenciados y utilizados en otros proyectos .NET Core. En este caso, el nombre "Aplicacion" sugiere que esta biblioteca podría contener clases y lógica relacionada con la capa de aplicación, como la implementación de casos de uso y la interacción con la interfaz de usuario.
 
-    7. dotnet new webapi -o DinoApi 🚧🔧
-        --> Crea un nuevo proyecto de API web utilizando .NET Core y lo guarda en la carpeta "DinoApi". Este comando establece las bases para crear una API utilizando el framework .NET Core, que puede ser utilizada para exponer servicios a través de HTTP.
+    7. dotnet new classlib -o Seguridad 🚧🔧
+        --> Crea un nuevo proyecto de biblioteca de clases utilizando .NET Core y lo guarda en la carpeta "Seguridad". Las bibliotecas de clases son conjuntos de código reutilizable que pueden ser referenciados y utilizados en otros proyectos .NET Core. En este caso, el nombre "Seguridad".
 
-    8. dotnet sln add Dominio/ 🚧🔧
+    8. dotnet new webapi -o WebApi 🚧🔧
+        --> Crea un nuevo proyecto de API web utilizando .NET Core y lo guarda en la carpeta "WebApi". Este comando establece las bases para crear una API utilizando el framework .NET Core, que puede ser utilizada para exponer servicios a través de HTTP.
+
+    9. dotnet sln add Dominio/ 🚧🔧
         --> Agrega el proyecto ubicado en la carpeta "Dominio" al archivo de solución actual de .NET Core. Esto permite incluir el proyecto "Dominio" dentro de la solución y facilita la gestión de múltiples proyectos en un mismo contexto de desarrollo. Es útil cuando se tiene una solución que consta de varios proyectos y se quiere mantener todo organizado en una estructura de solución.
 
-    9. dotnet sln add Persistencia/ 🚧🔧
+    10. dotnet sln add Persistencia/ 🚧🔧
         --> Agrega el proyecto ubicado en la carpeta "Persistencia" al archivo de solución actual de .NET Core. Esto permite incluir el proyecto "Persistencia" dentro de la solución y facilita la gestión de múltiples proyectos en un mismo contexto de desarrollo. Es útil cuando se tiene una solución que consta de varios proyectos y se quiere mantener todo organizado en una estructura de solución.
 
-    10. dotnet sln add Aplicacion/ 🚧🔧
+    11. dotnet sln add Aplicacion/ 🚧🔧
         --> Agrega el proyecto ubicado en la carpeta "Aplicacion" al archivo de solución actual de .NET Core. Esto permite incluir el proyecto "Aplicacion" dentro de la solución y facilita la gestión de múltiples proyectos en un mismo contexto de desarrollo. Es útil cuando se tiene una solución que consta de varios proyectos y se quiere mantener todo organizado en una estructura de solución.
 
-    11. dotnet sln add DinoApi/ 🚧🔧
-        --> Agrega el proyecto ubicado en la carpeta "DinoApi" al archivo de solución actual de .NET Core. Esto permite incluir el proyecto "DinoApi" dentro de la solución y facilita la gestión de múltiples proyectos en un mismo contexto de desarrollo. Es útil cuando se tiene una solución que consta de varios proyectos y se quiere mantener todo organizado en una estructura de solución.
+    12. dotnet sln add Seguridad/ 🚧🔧
+        --> Agrega el proyecto ubicado en la carpeta "Seguridad" al archivo de solución actual de .NET Core. Esto permite incluir el proyecto "Seguridad" dentro de la solución y facilita la gestión de múltiples proyectos en un mismo contexto de desarrollo. Es útil cuando se tiene una solución que consta de varios proyectos y se quiere mantener todo organizado en una estructura de solución.
+
+    13. dotnet sln add WebApi/ 🚧🔧
+        --> Agrega el proyecto ubicado en la carpeta "WebApi" al archivo de solución actual de .NET Core. Esto permite incluir el proyecto "WebApi" dentro de la solución y facilita la gestión de múltiples proyectos en un mismo contexto de desarrollo. Es útil cuando se tiene una solución que consta de varios proyectos y se quiere mantener todo organizado en una estructura de solución.
 
     ```
 ---
@@ -112,16 +121,25 @@ Estas son las carpertas de configuracion las cuales vamos a utilizar para nuestr
     1. cd Aplicacion/ 🔗🔧
         - dotnet add reference ../Dominio/
             --> Agrega una referencia al proyecto "Dominio" desde el proyecto "Aplicacion". Al hacer esto, el proyecto "Aplicacion" podrá acceder y utilizar las clases y funcionalidades proporcionadas por el proyecto "Dominio". Esto es útil cuando se tiene una estructura de capas en la que el proyecto de aplicación depende de lógica y modelos definidos en el proyecto de dominio.
+
         - dotnet add reference ../Persistencia/
             --> Agrega una referencia al proyecto "Persistencia" desde el proyecto "Aplicacion". Al hacer esto, el proyecto "Aplicacion" podrá acceder y utilizar las clases y funcionalidades proporcionadas por el proyecto "Persistencia". Esto es útil cuando se tiene una estructura de capas en la que el proyecto de aplicación necesita interactuar con la capa de persistencia, por ejemplo, para realizar operaciones de acceso a base de datos.
     
-    2. cd DinoApi/ 🔗🔧
+    2. cd WebApi/ 🔗🔧
         - dotnet add reference ../Aplicacion/
-            --> Agrega una referencia al proyecto "Aplicacion" desde el proyecto "DinoApi". Al hacer esto, el proyecto "DinoApi" podrá acceder y utilizar las clases y funcionalidades proporcionadas por el proyecto "Aplicacion". Esto es útil cuando se tiene una estructura de capas en la que el proyecto de la API necesita interactuar con la capa de aplicación para exponer funcionalidades a través de la interfaz de la API.
+            --> Agrega una referencia al proyecto "Aplicacion" desde el proyecto "WebApi". Al hacer esto, el proyecto "WebApi" podrá acceder y utilizar las clases y funcionalidades proporcionadas por el proyecto "Aplicacion". Esto es útil cuando se tiene una estructura de capas en la que el proyecto de la API necesita interactuar con la capa de aplicación para exponer funcionalidades a través de la interfaz de la API.
+            
+        - dotnet add reference ../Seguridad/
+            --> Agrega una referencia al proyecto "Seguridad" desde el proyecto "WebApi". Al hacer esto, el proyecto "WebApi" podrá acceder y utilizar las clases y funcionalidades proporcionadas por el proyecto "Seguridad". Esto es útil cuando se tiene una estructura de capas en la que el proyecto de la API necesita interactuar con la capa de aplicación para exponer funcionalidades a través de la interfaz de la API.
 
     3. cd Persistencia/ 🔗🔧
         - dotnet add reference ../Dominio/
             --> Agrega una referencia al proyecto "Dominio" desde el proyecto "Persistencia". Al hacer esto, el proyecto "Persistencia" podrá acceder y utilizar las clases y funcionalidades proporcionadas por el proyecto "Dominio". Esto es útil cuando se tiene una estructura de capas en la que el proyecto de persistencia necesita acceder a los modelos y reglas de negocio definidos en el proyecto de dominio.
+
+
+    4. cd Seguridad/ 🔗🔧
+        - dotnet add reference ../Aplicacion/
+            --> Agrega una referencia al proyecto "Aplicacion" desde el proyecto "Seguridad". Al hacer esto, el proyecto "Seguridad" podrá acceder y utilizar las clases y funcionalidades proporcionadas por el proyecto "Aplicacion". Esto es útil cuando se tiene una estructura de capas en la que el proyecto de persistencia necesita acceder a los modelos y reglas de negocio definidos en el proyecto de dominio.
 
     ```
 ---
@@ -193,6 +211,11 @@ Estas son las carpertas de configuracion las cuales vamos a utilizar para nuestr
 
             ---
 
+    - ### Seguridad 
+
+        - dotnet add package System.IdentityModel.Tokens.Jwt --version 6.32.2 📂🔧
+        
+            ---
 
     - ### WebApi 
 
@@ -219,6 +242,7 @@ Estas son las carpertas de configuracion las cuales vamos a utilizar para nuestr
            Agrega el paquete "Swashbuckle.AspNetCore" con la versión 6.5.0 al proyecto actual. Swashbuckle.AspNetCore es una biblioteca que permite generar automáticamente una documentación interactiva (Swagger UI) para tu API ASP.NET Core, lo que facilita la exploración y prueba de los endpoints de la API.
 
             ---
+
 
 <img src="https://cdn.icon-icons.com/icons2/2699/PNG/512/nuget_logo_icon_170908.png" alt="https://cdn.icon-icons.com/icons2/2699/PNG/512/nuget_logo_icon_170908.png" style="width: 3000px;">
 

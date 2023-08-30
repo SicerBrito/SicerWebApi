@@ -11,6 +11,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Aplicacion", "Aplicacion\Ap
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ApiIncidencias", "ApiIncidencias\ApiIncidencias.csproj", "{2883E01A-7497-4D34-893E-36E168ED759B}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Seguridad", "Seguridad\Seguridad.csproj", "{BCF7F674-EF52-4F8F-87FD-B4A346B40999}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -36,5 +38,9 @@ Global
 		{2883E01A-7497-4D34-893E-36E168ED759B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2883E01A-7497-4D34-893E-36E168ED759B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2883E01A-7497-4D34-893E-36E168ED759B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BCF7F674-EF52-4F8F-87FD-B4A346B40999}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BCF7F674-EF52-4F8F-87FD-B4A346B40999}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BCF7F674-EF52-4F8F-87FD-B4A346B40999}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BCF7F674-EF52-4F8F-87FD-B4A346B40999}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
