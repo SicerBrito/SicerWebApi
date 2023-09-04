@@ -166,12 +166,6 @@ Estas son las carpertas de configuracion las cuales vamos a utilizar para nuestr
 
             ---
 
-        - dotnet add package AutoMapper.Extensions.Microsoft.DependencyInjection --version 12.0.1  📂🔧
-
-           Agrega el paquete "AutoMapper.Extensions.Microsoft.DependencyInjection" con la versión 12.0.1 al proyecto actual. Este paquete proporciona extensiones para el framework AutoMapper que permiten una fácil integración con la inyección de dependencias de Microsoft.
-
-            ---
-
         - dotnet add package FluentValidation.AspNetCore --version 11.3.0  📂🔧
 
            Agrega el paquete "FluentValidation.AspNetCore" con la versión 11.3.0 al proyecto actual. FluentValidation es una biblioteca que permite realizar validaciones en modelos de forma sencilla y declarativa, y este paquete proporciona integración con ASP.NET Core.
@@ -199,12 +193,6 @@ Estas son las carpertas de configuracion las cuales vamos a utilizar para nuestr
 
             ---
 
-        - dotnet add package Microsoft.EntityFrameworkCore.Tools --version 7.0.10  📂🔧
-
-           Agrega el paquete "Microsoft.EntityFrameworkCore.Tools" con la versión 7.0.10 al proyecto actual. Este paquete proporciona herramientas adicionales para trabajar con Entity Framework Core, incluyendo comandos para realizar migraciones de base de datos y generar código a partir de modelos.
-
-            ---
-
         - dotnet add package Dapper --version 2.0.151  📂🔧
 
            Agrega el paquete "Dapper" con la versión 2.0.143 al proyecto actual. Dapper es una biblioteca que facilita el acceso y la manipulación de bases de datos en aplicaciones .NET mediante consultas SQL. Proporciona una forma sencilla y eficiente de mapear resultados de consultas a objetos.
@@ -218,6 +206,24 @@ Estas son las carpertas de configuracion las cuales vamos a utilizar para nuestr
             ---
 
     - ### WebApi 
+
+        - dotnet add package AspNetCoreRateLimit --version 5.0.0 📂🔧
+
+            ---
+
+        - dotnet add package AutoMapper.Extensions.Microsoft.DependencyInjection --version 12.0.1  📂🔧
+
+           Agrega el paquete "AutoMapper.Extensions.Microsoft.DependencyInjection" con la versión 12.0.1 al proyecto actual. Este paquete proporciona extensiones para el framework AutoMapper que permiten una fácil integración con la inyección de dependencias de Microsoft.
+
+            ---
+
+        - dotnet add package Microsoft.AspNetCore.Mvc.Versioning --version 5.1.0 📂🔧 
+
+            ---
+
+        - dotnet add package Microsoft.AspNetCore.OpenApi --version 7.0.10 📂🔧 
+
+            ---
 
         - dotnet add package Microsoft.EntityFrameworkCore.Design --version 7.0.10  📂🔧
 
