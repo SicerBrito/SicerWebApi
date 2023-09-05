@@ -231,12 +231,6 @@ Estas son las carpertas de configuracion las cuales vamos a utilizar para nuestr
 
             ---
 
-        - dotnet add package Newtonsoft.Json --version 13.0.3  📂🔧
-
-           Agrega el paquete "Newtonsoft.Json" con la versión 13.0.3 al proyecto actual. Newtonsoft.Json es una biblioteca muy utilizada para trabajar con formato JSON en aplicaciones .NET. Proporciona funciones para serializar y deserializar objetos en formato JSON.
-
-            ---
-
         - dotnet add package Microsoft.AspNetCore.Authentication.JwtBearer --version 7.0.10  📂🔧
 
            Agrega el paquete "Microsoft.AspNetCore.Authentication.JwtBearer" con la versión 7.0.10 al proyecto actual. Este paquete proporciona funcionalidad para la autenticación basada en tokens JWT (JSON Web Tokens) en aplicaciones ASP.NET Core.
