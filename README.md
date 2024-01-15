@@ -55,7 +55,7 @@ Estas son las carpertas de configuracion las cuales vamos a utilizar para nuestr
         Aqui se crean clases encargadas de recibir peticiones de los clientes y van a estar ubicadas las carpetas de Controladores, helpers, Dtos, Profile, Contenedor de dependecias(program.cs) y Extenciones.
 
  - 📂 En Seguridad  
-        Aqui se crean clases encargadas de la configuración de los archivos JWT(JSON Web Tokens) para la seguridad de nuestro proyecto.
+        Aqui se crean clases encargadas de la configuración de los archivos JWT(JSON Web Tokens) para la seguridad de nuestro proyecto. Esta parte no es obligatoria ya que se puede hacer directamente desde WebApi y por razones de eficiencia y contruccion es una mejor forma de hacerlo sin esta carpeta.
 
 ---
 
@@ -216,9 +216,9 @@ Estas son las carpertas de configuracion las cuales vamos a utilizar para nuestr
     - ### Dominio
 
         ---
-        - Agrega el paquete "Microsoft.EntityFrameworkCore" con la versión 7.0.10 al proyecto actual. Entity Framework Core es una biblioteca popular para el acceso a bases de datos en proyectos .NET Core, y esta instrucción instalará la versión específica 7.0.10 de dicha biblioteca en el proyecto. Esto permitirá al proyecto utilizar Entity Framework Core para interactuar con bases de datos. 📂🔧
+        - Agrega el paquete "Microsoft.EntityFrameworkCore" con la versión 8.0.1 al proyecto actual. Entity Framework Core es una biblioteca popular para el acceso a bases de datos en proyectos .NET Core, y esta instrucción instalará la versión específica 8.0.1 de dicha biblioteca en el proyecto. Esto permitirá al proyecto utilizar Entity Framework Core para interactuar con bases de datos. 📂🔧
             ```
-            dotnet add package Microsoft.EntityFrameworkCore --version 7.0.10
+           dotnet add package Microsoft.EntityFrameworkCore --version 8.0.1
             ```
             ---
 
@@ -234,38 +234,38 @@ Estas son las carpertas de configuracion las cuales vamos a utilizar para nuestr
             ```
             ---
 
-        - Agrega el paquete "itext7.pdfhtml" con la versión 5.0.1 al proyecto actual. Este paquete pertenece a iText 7, una biblioteca utilizada para trabajar con archivos PDF en aplicaciones .NET. En particular, "itext7.pdfhtml" es una extensión de iText 7 que permite convertir documentos HTML a PDF. 📂🔧
+        - Agrega el paquete "itext7.pdfhtml" con la versión 5.0.2 al proyecto actual. Este paquete pertenece a iText 7, una biblioteca utilizada para trabajar con archivos PDF en aplicaciones .NET. En particular, "itext7.pdfhtml" es una extensión de iText 7 que permite convertir documentos HTML a PDF. 📂🔧
             ```
-            dotnet add package itext7.pdfhtml --version 5.0.1
+            dotnet add package itext7.pdfhtml --version 5.0.2
             ```
             ---
 
 
     - ### Persistencia 
         ---
-        - Agrega el paquete "Microsoft.EntityFrameworkCore" con la versión 7.0.10 al proyecto actual. Entity Framework Core es una biblioteca popular para el acceso a bases de datos en proyectos .NET Core, y esta instrucción instalará la versión específica 7.0.10 de dicha biblioteca en el proyecto. Esto permitirá al proyecto utilizar Entity Framework Core para interactuar con bases de datos. 📂🔧
+        - Agrega el paquete "Microsoft.EntityFrameworkCore" con la versión 8.0.1 al proyecto actual. Entity Framework Core es una biblioteca popular para el acceso a bases de datos en proyectos .NET Core, y esta instrucción instalará la versión específica 8.0.1 de dicha biblioteca en el proyecto. Esto permitirá al proyecto utilizar Entity Framework Core para interactuar con bases de datos. 📂🔧
             ```
-            dotnet add package Microsoft.EntityFrameworkCore --version 7.0.10
+            dotnet add package Microsoft.EntityFrameworkCore --version 8.0.1
             ```
             ---
 
         - Agrega el paquete "Pomelo.EntityFrameworkCore.MySql" con la versión 7.0.0 al proyecto actual. Este paquete proporciona soporte para MySQL en Entity Framework Core y es una opción popular para interactuar con bases de datos MySQL en proyectos .NET Core. 📂🔧
             ```
-            dotnet add package Pomelo.EntityFrameworkCore.MySql --version 7.0.0  
+            dotnet add package Pomelo.EntityFrameworkCore.MySql --version 7.0.0
             ```
             ---
 
-        - Agrega el paquete "Dapper" con la versión 2.0.143 al proyecto actual. Dapper es una biblioteca que facilita el acceso y la manipulación de bases de datos en aplicaciones .NET mediante consultas SQL. Proporciona una forma sencilla y eficiente de mapear resultados de consultas a objetos. 📂🔧
+        - Agrega el paquete "Dapper" con la versión 2.1.28 al proyecto actual. Dapper es una biblioteca que facilita el acceso y la manipulación de bases de datos en aplicaciones .NET mediante consultas SQL. Proporciona una forma sencilla y eficiente de mapear resultados de consultas a objetos. 📂🔧
             ```
-            dotnet add package Dapper --version 2.0.151  
+            dotnet add package Dapper --version 2.1.28
             ```
             ---
 
     - ### Seguridad 
         ---
-        - Agrega el paquete "System.IdentityModel.Tokens.Jwt" con la versión 6.32.2 al proyecto actual. Este paquete proporciona funcionalidades relacionadas con la generación y validación de tokens JWT (JSON Web Tokens), que son comunes en implementaciones de autenticación y autorización en aplicaciones web y servicios. 📂🔧
+        - Agrega el paquete "System.IdentityModel.Tokens.Jwt" con la versión 7.2.0 al proyecto actual. Este paquete proporciona funcionalidades relacionadas con la generación y validación de tokens JWT (JSON Web Tokens), que son comunes en implementaciones de autenticación y autorización en aplicaciones web y servicios. 📂🔧
             ```
-            dotnet add package System.IdentityModel.Tokens.Jwt --version 6.32.2 
+            dotnet add package System.IdentityModel.Tokens.Jwt --version 7.2.0
             ```
             ---
 
@@ -289,22 +289,22 @@ Estas son las carpertas de configuracion las cuales vamos a utilizar para nuestr
             ```
             ---
 
-        - Agrega el paquete "Microsoft.AspNetCore.OpenApi" con la versión 7.0.10 al proyecto actual. Proporciona API para anotar puntos finales del controlador de ruta en ASP.NET Core con anotaciones OpenAPI. 📂🔧
+        - Agrega el paquete "Microsoft.AspNetCore.OpenApi" con la versión 8.0.1 al proyecto actual. Proporciona API para anotar puntos finales del controlador de ruta en ASP.NET Core con anotaciones OpenAPI. 📂🔧
             ```
-            dotnet add package Microsoft.AspNetCore.OpenApi --version 7.0.10  
+            dotnet add package Microsoft.AspNetCore.OpenApi --version 8.0.1
             ```
             ---
 
-        - Agrega el paquete "Microsoft.EntityFrameworkCore.Design" con la versión 7.0.10 al proyecto actual. Este paquete proporciona herramientas de diseño para Entity Framework Core, que son útiles para trabajar con bases de datos y realizar migraciones en proyectos .NET Core. 📂🔧
+        - Agrega el paquete "Microsoft.EntityFrameworkCore.Design" con la versión 8.0.1 al proyecto actual. Este paquete proporciona herramientas de diseño para Entity Framework Core, que son útiles para trabajar con bases de datos y realizar migraciones en proyectos .NET Core. 📂🔧
             ```
-            dotnet add package Microsoft.EntityFrameworkCore.Design --version 7.0.10  
+            dotnet add package Microsoft.EntityFrameworkCore.Design --version 8.0.1
             ```
            
             ---
 
-        - Agrega el paquete "Microsoft.AspNetCore.Authentication.JwtBearer" con la versión 7.0.10 al proyecto actual. Este paquete proporciona funcionalidad para la autenticación basada en tokens JWT (JSON Web Tokens) en aplicaciones ASP.NET Core. 📂🔧
+        - Agrega el paquete "Microsoft.AspNetCore.Authentication.JwtBearer" con la versión 8.0.1 al proyecto actual. Este paquete proporciona funcionalidad para la autenticación basada en tokens JWT (JSON Web Tokens) en aplicaciones ASP.NET Core. 📂🔧
             ```
-            dotnet add package Microsoft.AspNetCore.Authentication.JwtBearer --version 7.0.10  
+            dotnet add package Microsoft.AspNetCore.Authentication.JwtBearer --version 8.0.1
             ```
            
             ---
@@ -314,6 +314,21 @@ Estas son las carpertas de configuracion las cuales vamos a utilizar para nuestr
             dotnet add package Swashbuckle.AspNetCore --version 6.5.0  
             ```
             ---
+
+        - Agrega el paquete "Serilog.AspNetCore" con la versión 8.0.0 al proyecto actual. Este paquete proporciona . 📂🔧
+            ```
+            dotnet add package Serilog.AspNetCore --version 8.0.0
+            ```
+           
+            ---
+
+        - Agrega el paquete "Swashbuckle.AspNetCore.Swagger" con la versión 6.5.0 al proyecto actual. Este paquete proporciona . 📂🔧
+            ```
+            dotnet add package Swashbuckle.AspNetCore.Swagger --version 6.5.0
+            ```
+           
+            ---
+
 
 
 <img src="https://cdn.icon-icons.com/icons2/2699/PNG/512/nuget_logo_icon_170908.png" alt="https://cdn.icon-icons.com/icons2/2699/PNG/512/nuget_logo_icon_170908.png" style="width: 3000px;">
